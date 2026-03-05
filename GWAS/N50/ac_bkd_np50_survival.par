@@ -1,0 +1,35 @@
+DATAFILE
+ac_pheno_n50_bf90.txt
+TRAITS
+3
+FIELDS_PASSED TO OUTPUT
+1
+WEIGHT(S)
+
+RESIDUAL_VARIANCE
+0.44
+EFFECT
+2 cross alpha
+EFFECT
+1 cross alpha
+RANDOM
+animal
+FILE
+pedigree_bkd_bf90.txt 
+FILE_POS
+1 2 3 0 0 0
+SNP_FILE
+ac_bkd_all_geno_bf90.txt
+(CO)VARIANCES
+0.56
+OPTION hwe
+#OPTION saveAscii
+#OPTION saveDiagGOrig
+OPTION callrateAnim 0.95
+OPTION callrate 0.95
+#OPTION tunedG 1
+#OPTION AlphaBeta 0.95 0
+#OPTION GammaDelta 0.05 0
+#OPTION snp_p_value
+OPTION saveCleanSNPs
+OPTION map_file map_bf90.txt

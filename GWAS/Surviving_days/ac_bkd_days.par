@@ -1,0 +1,33 @@
+DATAFILE
+ac_bkd_pheno_bf90.txt
+TRAITS
+3
+FIELDS_PASSED TO OUTPUT
+1
+WEIGHT(S)
+
+RESIDUAL_VARIANCE
+8.1614 
+EFFECT
+2 cross alpha
+EFFECT
+1 cross alpha
+RANDOM
+animal
+FILE
+pedigree_bkd_bf90.txt
+FILE_POS
+1 2 3 0 0 0
+SNP_FILE
+ac_bkd_all_geno_bf90.txt
+(CO)VARIANCES
+7.4535 
+OPTION hwe
+OPTION callrateAnim 0.95
+OPTION callrate 0.95
+OPTION saveCleanSNPs
+OPTION map_file map_bf90.txt
+#OPTION sol se
+#OPTION EM-REML 10
+#OPTION method VCE
+#OPTION se_covar_function h2_bkd_days G_2_2_1_1/(G_2_2_1_1+R_1_1)

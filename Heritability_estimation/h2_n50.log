@@ -1,0 +1,13 @@
+                           ********   Monte Carlo Error by Time Series   ********
+  Pos. eff1 eff2 trt1 trt2        MCE        Mean             HPD             Effective       Median        Mode      Independent
+                                                         Interval (95%)       sample size                             chain size
+    1    2    2    1    1      0.83018E-02   1.3016      0.86150       1.7470        780.2         1.2860       1.3349            2
+    2    0    0    1    1      0.18030E-02   1.0062      0.91280       1.0850        576.3         1.0050      0.99621            8
+    3 h2_bkd_n50_survival      0.15954E-02  0.55986      0.47446      0.64836        765.2        0.56122      0.54945            2
+
+                           ********   Posterior Standard Deviation   ********
+  Pos. eff1 eff2 trt1 trt2        PSD        Mean             PSD             Geweke            Autocorrelations      Independent
+                                                         Interval (95%)       diagnostic   lag: 1       10       50    # batches
+    1    2    2    1    1      0.23203       1.3016      0.84684       1.7564         0.02      0.032    0.008   -0.002       400
+    2    0    0    1    1      0.43311E-01   1.0062      0.92135       1.0911         0.05      0.012    0.026   -0.024       100
+    3 h2_bkd_n50_survival      0.44160E-01  0.55986      0.47331      0.64642         0.01      0.035    0.010   -0.009       400

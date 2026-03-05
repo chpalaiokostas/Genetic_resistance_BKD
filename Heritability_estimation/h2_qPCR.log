@@ -1,0 +1,25 @@
+ BLUPF90+ ver. 2.60
+ In round         19 convergence =  0.321348577377E-10
+ delta convergence =  0.275439018964E-06
+-2logL =        2266.6194     : AIC =        2270.6194    
+Genetic variance(s) for effect  2       
+  0.53209E-01
+Residual variance(s)
+  0.93699    
+inverse of AI matrix (Sampling Variance)
+  0.13985E-02 -0.10250E-02
+ -0.10250E-02  0.31478E-02
+Correlations from inverse of AI matrix
+   1.0000     -0.48853    
+ -0.48853       1.0000    
+SE for G
+  0.37397E-01
+SE for R
+  0.56105E-01
+  
+Sampling variances of covariances function of random effects (n=10000)
+  
+h2_bkd_ct  - Function: g_2_2_1_1/(g_2_2_1_1+r_1_1)
+  Mean:   0.53736E-01
+  Sample Mean:   0.53149E-01
+  Sample SD:   0.37846E-01
